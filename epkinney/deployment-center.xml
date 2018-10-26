@@ -13,7 +13,7 @@
   <GitHub>https://github.com/kinneye/deployment_center</GitHub>
   <Repository>epkinney/deployment_center</Repository>
   <Project></Project>
-  <Deprecated>true</Deprecated>
+  <Deprecated>false</Deprecated>
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
   <Networking>
