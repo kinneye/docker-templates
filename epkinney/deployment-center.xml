@@ -3,7 +3,7 @@
   <TemplateURL>https://raw.githubusercontent.com/kinneye/docker-templates/master/epkinney/deployment-center.xml</TemplateURL>
   <Beta>False</Beta>
   <Category></Category>
-  <Name>deployment_center.xml</Name>
+  <Name>Deployment_Center</Name>
   <Description>Description
   </Description>
   <Overview>Overview
