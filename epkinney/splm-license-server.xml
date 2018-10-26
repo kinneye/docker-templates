@@ -13,7 +13,7 @@
   <GitHub>https://github.com/kinneye/splm_license_server</GitHub>
   <Repository>epkinney/splm_license_server</Repository>
   <Project></Project>
-  <Deprecated>true</Deprecated>
+  <Deprecated>false</Deprecated>
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
   <Networking>
