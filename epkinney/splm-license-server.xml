@@ -11,7 +11,7 @@
   <Support></Support>
   <Registry>https://registry.hub.docker.com/u/epkinney/splm-license-server/</Registry>
   <GitHub>https://github.com/kinneye/splm_license_server</GitHub>
-  <Repository>epkinney/splm-license-server</Repository>
+  <Repository>epkinney/epkinney/splm_license_server</Repository>
   <Project></Project>
   <Deprecated>true</Deprecated>
   <BindTime>true</BindTime>
