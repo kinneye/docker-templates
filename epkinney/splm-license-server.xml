@@ -37,6 +37,11 @@
     </Variable>
   </Environment>
   <Data>
+	<Volume>
+      <HostDir>/sys/fs/cgroup</HostDir>
+      <ContainerDir>/sys/fs/cgroup</ContainerDir>
+      <Mode>ro</Mode>
+    </Volume>
     <Volume>
       <HostDir>/mnt/user/license</HostDir>
       <ContainerDir>/data</ContainerDir>
