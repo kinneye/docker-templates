@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <TemplateURL>https://raw.githubusercontent.com/kinneye/docker-templates/master/epkinney/centos.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category></Category>
+  <Name>CentOS</Name>
+  <Description>Description
+  </Description>
+  <Overview>Overview
+  </Overview>
+  <Support></Support>
+  <Registry>https://cloud.docker.com/repository/docker/epkinney/centos/</Registry>
+  <GitHub>https://github.com/kinneye/centos</GitHub>
+  <Repository>epkinney/centos</Repository>
+  <Project></Project>
+  <Deprecated>false</Deprecated>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+    </Publish>
+  </Networking>
+  <Environment>
+  </Environment>
+  <Data>
+  </Data>
+  <Icon>https://github.com/kinneye/docker-templates/raw/master/epkinney/images/centos.png</Icon>
+  <ExtraParams></ExtraParams>
+</Containers>
