@@ -33,8 +33,26 @@
     Required="false">/usr/lib/jvm/java-1.8.0</Config>
   <Config
     Type="Variable" 
+    Name="JAVA64_HOME" 
+    Target="JAVA64_HOME" 
+    Default="/usr/lib/jvm/java-1.8.0" 
+    Description=""
+    Mask="false" 
+    Display="advanced" 
+    Required="false">/usr/lib/jvm/java-1.8.0</Config>
+  <Config
+    Type="Variable" 
     Name="JRE_HOME" 
     Target="JRE_HOME" 
+    Default="/usr/lib/jvm/jre-1.8.0" 
+    Description=""
+    Mask="false" 
+    Display="advanced" 
+    Required="false">/usr/lib/jvm/jre-1.8.0</Config>
+  <Config
+    Type="Variable" 
+    Name="JRE64_HOME" 
+    Target="JRE64_HOME" 
     Default="/usr/lib/jvm/jre-1.8.0" 
     Description=""
     Mask="false" 
