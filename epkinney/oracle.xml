@@ -11,7 +11,7 @@
   <Support></Support>
   <Registry>https://cloud.docker.com/repository/docker/epkinney/oracle/</Registry>
   <GitHub>https://github.com/kinneye/oracle</GitHub>
-  <Repository>epkinney/splm_license_server</Repository>
+  <Repository>epkinney/oracle</Repository>
   <Project></Project>
   <Deprecated>false</Deprecated>
   <BindTime>true</BindTime>
