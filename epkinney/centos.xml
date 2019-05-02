@@ -17,9 +17,8 @@
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
   <Networking>
-    <Mode>bridge</Mode>
-    <Publish>
-    </Publish>
+    <Mode>host</Mode>
+    <Publish/>
   </Networking>
   <Environment>
   </Environment>
