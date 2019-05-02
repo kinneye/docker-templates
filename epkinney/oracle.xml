@@ -26,6 +26,42 @@
       </Port>
     </Publish>
   </Networking>
+  <Config
+    Type="Variable" 
+    Name="ORACLE_SID" 
+    Target="DB_SID" 
+    Default="ORCLCDB" 
+    Description="This parameter changes the ORACLE_SID of the database. The default value is set to ORCLCDB." 
+    Mask="false" 
+    Display="always" 
+    Required="false">ORCLCDB</Config>
+  <Config
+    Type="Variable" 
+    Name="DB_PDB" 
+    Target="DB_PDB" 
+    Default="ORCLPDB1" 
+    Description="This parameter modifies the name of the PDB. The default value is set to ORCLPDB1." 
+    Mask="false" 
+    Display="always" 
+    Required="false">ORCLPDB1</Config>
+  <Config
+    Type="Variable" 
+    Name="DB_MEMORY" 
+    Target="DB_MEMORY" 
+    Default="2GB" 
+    Description="This parameter sets the memory requirement for the Oracle server. This value determines the amount of memory to be allocated for SGA and PGA. The default value is set to 2GB." 
+    Mask="false" 
+    Display="always" 
+    Required="false">2GB</Config>
+    <Config
+    Type="Variable" 
+    Name="DB_DOMAIN" 
+    Target="DB_DOMAIN" 
+    Default="localdomain" 
+    Description="This parameter sets the domain to be used for database server. The default value is localdomain."
+    Mask="false" 
+    Display="always" 
+    Required="false">localdomain</Config>
   <Environment>
   </Environment>
   <Data>
