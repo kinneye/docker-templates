@@ -9,9 +9,9 @@
   <Overview>Overview
   </Overview>
   <Support></Support>
-  <Registry>https://cloud.docker.com/repository/docker/epkinney/oracle/</Registry>
+  <Registry>https://hub.docker.com/u/epkinney/content/sub-94fcc980-0414-487e-9b29-dd63f3d6e181</Registry>
   <GitHub>https://github.com/kinneye/oracle</GitHub>
-  <Repository>epkinney/oracle</Repository>
+  <Repository>store/oracle/database-enterprise:12.2.0.1</Repository>
   <Project></Project>
   <Deprecated>false</Deprecated>
   <BindTime>true</BindTime>
