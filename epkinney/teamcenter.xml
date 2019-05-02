@@ -22,42 +22,6 @@
   </Networking>
   <Environment>
   </Environment>
-  <Config
-    Type="Variable" 
-    Name="JAVA_HOME" 
-    Target="JAVA_HOME" 
-    Default="/usr/lib/jvm/java-1.8.0" 
-    Description=""
-    Mask="false" 
-    Display="advanced" 
-    Required="false">/usr/lib/jvm/java-1.8.0</Config>
-  <Config
-    Type="Variable" 
-    Name="JAVA64_HOME" 
-    Target="JAVA64_HOME" 
-    Default="/usr/lib/jvm/java-1.8.0" 
-    Description=""
-    Mask="false" 
-    Display="advanced" 
-    Required="false">/usr/lib/jvm/java-1.8.0</Config>
-  <Config
-    Type="Variable" 
-    Name="JRE_HOME" 
-    Target="JRE_HOME" 
-    Default="/usr/lib/jvm/jre-1.8.0" 
-    Description=""
-    Mask="false" 
-    Display="advanced" 
-    Required="false">/usr/lib/jvm/jre-1.8.0</Config>
-  <Config
-    Type="Variable" 
-    Name="JRE64_HOME" 
-    Target="JRE64_HOME" 
-    Default="/usr/lib/jvm/jre-1.8.0" 
-    Description=""
-    Mask="false" 
-    Display="advanced" 
-    Required="false">/usr/lib/jvm/jre-1.8.0</Config>
   <Data>
   <Volume>
       <HostDir></HostDir>
@@ -66,5 +30,5 @@
     </Volume>
   </Data>
   <Icon>https://github.com/kinneye/docker-templates/raw/master/epkinney/images/teamcenter.png</Icon>
-  <ExtraParams>--hostname="foundation" --mac-address="" --add-host="oracle:10.1.0.25" --network-alias foundation</ExtraParams>
+  <ExtraParams>--hostname="foundation" --add-host="oracle:10.1.0.25" --network-alias foundation</ExtraParams>
 </Containers>
