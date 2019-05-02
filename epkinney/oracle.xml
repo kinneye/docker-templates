@@ -62,6 +62,42 @@
     Mask="false" 
     Display="always" 
     Required="false">localdomain</Config>
+  <Config
+    Type="Variable" 
+    Name="PATH" 
+    Target="PATH" 
+    Default="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/u01/app/oracle/product/12.2.0/dbhome_1/bin" 
+    Description=""
+    Mask="false" 
+    Display="hidden" 
+    Required="false">/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/u01/app/oracle/product/12.2.0/dbhome_1/bin</Config>
+  <Config
+    Type="Variable" 
+    Name="ORACLE_HOME" 
+    Target="ORACLE_HOME" 
+    Default="/u01/app/oracle/product/12.2.0/dbhome_1" 
+    Description=""
+    Mask="false" 
+    Display="hidden" 
+    Required="false">/u01/app/oracle/product/12.2.0/dbhome_1</Config>
+  <Config
+    Type="Variable" 
+    Name="OH" 
+    Target="OH" 
+    Default="/u01/app/oracle/product/12.2.0/dbhome_1" 
+    Description=""
+    Mask="false" 
+    Display="hidden" 
+    Required="false">/u01/app/oracle/product/12.2.0/dbhome_1</Config>
+  <Config
+    Type="Variable" 
+    Name="TNS_ADMIN" 
+    Target="TNS_ADMIN" 
+    Default="/u01/app/oracle/product/12.2.0/dbhome_1/admin/ORCLCDB" 
+    Description=""
+    Mask="false" 
+    Display="hidden" 
+    Required="false">/u01/app/oracle/product/12.2.0/dbhome_1/admin/ORCLCDB</Config>
   <Environment>
   </Environment>
   <Data>
