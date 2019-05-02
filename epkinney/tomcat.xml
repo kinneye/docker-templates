@@ -23,7 +23,14 @@
   <Environment>
   </Environment>
   <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/usr/local/tomcat/webapps</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
   </Data>
   <Icon>https://github.com/kinneye/docker-templates/raw/master/epkinney/images/tomcat.png</Icon>
   <ExtraParams></ExtraParams>
 </Containers>
+
+
