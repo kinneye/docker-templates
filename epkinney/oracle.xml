@@ -108,5 +108,5 @@
     </Volume>
   </Data>
   <Icon>https://github.com/kinneye/docker-templates/raw/master/epkinney/images/oracle.png</Icon>
-  <ExtraParams></ExtraParams>
+  <ExtraParams>--hostname="Oracle"</ExtraParams>
 </Containers>
