@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <TemplateURL>https://raw.githubusercontent.com/kinneye/docker-templates/master/epkinney/oracle-teamcenter.xml</TemplateURL>
+  <Beta>False</Beta>
+  <Category></Category>
+  <Name>Oracle Teamcenter</Name>
+  <Description>Description
+  </Description>
+  <Overview>Overview
+  </Overview>
+  <Support></Support>
+  <Registry>https://hub.docker.com/u/epkinney/content/sub-94fcc980-0414-487e-9b29-dd63f3d6e181</Registry>
+  <GitHub>https://github.com/kinneye/oracle</GitHub>
+  <Repository>epkinney/oracle-teamcenter:12.1.0-Tc12</Repository>
+  <Project></Project>
+  <Deprecated>false</Deprecated>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>1521</HostPort>
+        <ContainerPort>1521</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Environment>
+  </Environment>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/database</HostDir>
+      <ContainerDir>/database</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Icon>https://github.com/kinneye/docker-templates/raw/master/epkinney/images/oracle.png</Icon>
+  <ExtraParams>--hostname="Database-Server"</ExtraParams>
+</Containers>
