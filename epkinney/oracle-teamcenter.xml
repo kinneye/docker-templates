@@ -34,6 +34,11 @@
       <ContainerDir>/database</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
+    <Volume>
+      <HostDir>/sys/fs/cgroup/</HostDir>
+      <ContainerDir>/sys/fs/cgroup/</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
   </Data>
   <Icon>https://github.com/kinneye/docker-templates/raw/master/epkinney/images/oracle.png</Icon>
   <ExtraParams>--hostname="Database-Server"</ExtraParams>
