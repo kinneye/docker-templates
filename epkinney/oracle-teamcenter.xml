@@ -3,7 +3,7 @@
   <TemplateURL>https://raw.githubusercontent.com/kinneye/docker-templates/master/epkinney/oracle-teamcenter.xml</TemplateURL>
   <Beta>False</Beta>
   <Category></Category>
-  <Name>Oracle Teamcenter</Name>
+  <Name>Oracle-Teamcenter</Name>
   <Description>Description
   </Description>
   <Overview>Overview
