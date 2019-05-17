@@ -11,7 +11,7 @@
   <Support></Support>
   <Registry>https://hub.docker.com/u/epkinney/content/sub-94fcc980-0414-487e-9b29-dd63f3d6e181</Registry>
   <GitHub>https://github.com/kinneye/oracle</GitHub>
-  <Repository>epkinney/oracle-teamcenter:12.1.0-Tc12</Repository>
+  <Repository>epkinney/oracle-teamcenter:12.1.0-tc12</Repository>
   <Project></Project>
   <Deprecated>false</Deprecated>
   <BindTime>true</BindTime>
