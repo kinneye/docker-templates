@@ -11,7 +11,7 @@
   <Support></Support>
   <Registry>https://hub.docker.com/u/epkinney/content/sub-94fcc980-0414-487e-9b29-dd63f3d6e181</Registry>
   <GitHub>https://github.com/kinneye/MinecraftPE</GitHub>
-  <Repository>epkinney/nukkit:menu-gui</Repository>
+  <Repository>epkinney/nukkit</Repository>
   <Project></Project>
   <Deprecated>false</Deprecated>
   <BindTime>true</BindTime>
@@ -20,8 +20,8 @@
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>80</HostPort>
-        <ContainerPort>80</ContainerPort>
+        <HostPort>19132</HostPort>
+        <ContainerPort>19132</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
     </Publish>
@@ -31,11 +31,10 @@
   <Data>
     <Volume>
       <HostDir>/mnt/user/MinecraftPE</HostDir>
-      <ContainerDir>/temp</ContainerDir>
+      <ContainerDir>/srv/nukkit</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
-  <WebUI>http://[IP]:[PORT:80]/web</WebUI>
   <Icon>https://github.com/kinneye/docker-templates/raw/master/epkinney/images/MinecraftPE.png</Icon>
   <ExtraParams></ExtraParams>
 </Containers>
