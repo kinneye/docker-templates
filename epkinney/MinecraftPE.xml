@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <TemplateURL>https://raw.githubusercontent.com/kinneye/docker-templates/master/epkinney/multicraft.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/kinneye/docker-templates/master/epkinney/MinecraftPE.xml</TemplateURL>
   <Beta>False</Beta>
   <Category></Category>
-  <Name>Multicraft</Name>
+  <Name>MinecraftPE</Name>
   <Description>Description
   </Description>
   <Overview>Overview
   </Overview>
   <Support></Support>
   <Registry>https://hub.docker.com/u/epkinney/content/sub-94fcc980-0414-487e-9b29-dd63f3d6e181</Registry>
-  <GitHub>https://github.com/kinneye/multicraft</GitHub>
-  <Repository>epkinney/multicraft</Repository>
+  <GitHub>https://github.com/kinneye/MinecraftPE</GitHub>
+  <Repository>epkinney/MinecraftPE</Repository>
   <Project></Project>
   <Deprecated>false</Deprecated>
   <BindTime>true</BindTime>
@@ -30,12 +30,12 @@
   </Environment>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/multicraft</HostDir>
+      <HostDir>/mnt/user/MinecraftPE</HostDir>
       <ContainerDir>/temp</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
   <WebUI>http://[IP]:[PORT:80]/web</WebUI>
-  <Icon>https://github.com/kinneye/docker-templates/raw/master/epkinney/images/multicraft.png</Icon>
+  <Icon>https://github.com/kinneye/docker-templates/raw/master/epkinney/images/MinecraftPE.png</Icon>
   <ExtraParams></ExtraParams>
 </Containers>
