@@ -9,9 +9,9 @@
   <Overview>Overview
   </Overview>
   <Support></Support>
-  <Registry>https://hub.docker.com/u/epkinney/content/sub-94fcc980-0414-487e-9b29-dd63f3d6e181</Registry>
+  <Registry></Registry>
   <GitHub>https://github.com/kinneye/MinecraftPE</GitHub>
-  <Repository>epkinney/nukkit</Repository>
+  <Repository>epkinney/nukkit:latest</Repository>
   <Project></Project>
   <Deprecated>false</Deprecated>
   <BindTime>true</BindTime>
